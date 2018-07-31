@@ -6,4 +6,8 @@ class UsersController < ApplicationController
   def show
     @name = "KV"
   end
+
+  def bunty
+      @bunty = "Bunty Baweja"
+  end
 end
